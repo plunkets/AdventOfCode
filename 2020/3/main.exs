@@ -32,6 +32,5 @@ end
 content
 |> Aoc.parse
 |> Aoc.path(3,1)
-|> Enum.to_list
 |> Enum.count(& &1)
 |> IO.puts
